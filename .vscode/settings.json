@@ -77,5 +77,6 @@
     
     // Mensagens de erro
     "latex-workshop.message.error.show": true,
-    "latex-workshop.message.warning.show": true
+    "latex-workshop.message.warning.show": true,
+    "editor.wordWrap": "on"
 }
