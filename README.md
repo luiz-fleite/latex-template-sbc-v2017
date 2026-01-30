@@ -34,12 +34,12 @@ Para isso, foi escolhido:
 
 ```text
 /
+├── .vscode/            # Configurações automáticas para Tectonic e LaTeX Workshop
 ├── images/             # Imagens e figuras (JPG, PNG, PDF)
 ├── bib/                # Banco de dados (.bib) e estilos (.bst) bibliográficos
 ├── styles/             # Arquivos de estilo (.sty) da SBC
 ├── build/              # Artefatos gerados (logs, aux, pdf intermediário)
 ├── tmp/                # Sandbox para testes e comparações (versionado)
-├── .vscode/            # Configurações automáticas para Tectonic e LaTeX Workshop
 ├── main.tex            # Arquivo principal do artigo
 └── main.pdf            # PDF final gerado (atualizado automaticamente)
 ```
