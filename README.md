@@ -5,7 +5,8 @@ Adaptação do **template oficial da SBC (2017)** para uso **local**, mantendo a
 > 1. Instale o **Tectonic** e a extensão **LaTeX Workshop** no VS Code.
 > 2. Abra o arquivo `main.tex`.
 > 3. Salve o arquivo (`Ctrl+S`).
-> 4. O PDF será gerado automaticamente em `build/` e uma cópia atualizada aparecerá na raiz como `main.pdf`.
+> 4. O arquivo `main.pdf` será gerado/atualizado na raiz. 
+> 5. Habilite o `gitdoc` em [.vscode/settings.json](.vscode/settings.json) (opcional)
 
 ---
 
@@ -50,11 +51,15 @@ Para isso, foi escolhido:
 
 ### Pré-requisitos
 1.  **Tectonic:** Um motor LaTeX moderno e autossuficiente.
-2.  **VS Code:** Com a extensão `LaTeX Workshop` instalada.
+2.  **VS Code:** Com a extensão `LaTeX Workshop` instalada. 
+
+### Opcionais 
+1. **GitDoc**: Extensão do vscode para habilitar salvamento automático no git (commit e push) assim como em editores de texto comuns. É possível customizar as regras em [.vscode/settings.json](.vscode/settings.json). 
 
 ### Editando e Compilando
-1.  Abra a pasta do projeto no VS Code.
-2.  Edite o arquivo `main.tex`.
-3.  Ao salvar (`Ctrl+S`), o build iniciará automaticamente.
-4.  O arquivo `main.pdf` na raiz será atualizado.
+1. Abra a pasta do projeto no VS Code.
+2. Edite o arquivo `main.tex`.
+3. Ao salvar (`Ctrl+S`), o build iniciará automaticamente.
+4. O PDF será gerado automaticamente em `build/` e uma cópia atualizada aparecerá na raiz como `main.pdf`. 
+5. Habilite o `gitdoc` em [.vscode/settings.json](.vscode/settings.json) para uma experiência de salvamento automático de editores de texto comuns (opcional) 
 

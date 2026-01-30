@@ -78,5 +78,12 @@
     // Mensagens de erro
     "latex-workshop.message.error.show": true,
     "latex-workshop.message.warning.show": true,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+
+    // GitDoc - Configuração estilo Overleaf
+    "gitdoc.enabled": false, // Defina como true para habilitar GitDoc
+    "gitdoc.autoPush": "afterDelay",
+    "gitdoc.autoPushDelay": 30000,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
 }

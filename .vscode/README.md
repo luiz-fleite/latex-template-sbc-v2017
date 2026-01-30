@@ -23,5 +23,11 @@ As configurações em `settings.json` definem uma receita de build customizada c
 
 - **James-Yu.latex-workshop**: Essencial para o funcionamento de todas as automações acima.
 
----
-*Nota: Se você alterar a estrutura de pastas ou o nome do arquivo principal (`main.tex`), lembre-se de atualizar os caminhos nestas configurações.*
+## 🔄 Backup Automático (GitDoc)
+
+O projeto inclui configurações para a extensão **GitDoc**, que emula o salvamento e backup automático do Overleaf:
+
+- **`gitdoc.enabled`**: Desabilitado por padrão. Ao ativar, ele cria commits automáticos a cada 30 segundos após alterações.
+- **`files.autoSave`**: Quando configurado como `afterDelay`, permite que o VS Code salve sozinho, disparando o build e o backup sem intervenção manual.
+
+Para ativar essa experiência, instale a extensão recomendada e mude `gitdoc.enabled` para `true` no arquivo `settings.json`.
