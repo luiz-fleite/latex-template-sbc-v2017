@@ -1,0 +1,81 @@
+{
+    // LaTeX Workshop - Configuração para usar Tectonic
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "Tectonic",
+            "tools": ["tectonic", "copyPdf"]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "tectonic",
+            "command": "tectonic",
+            "args": [
+                "-X",
+                "compile",
+                "%DOC%.tex",
+                "--synctex",
+                "--keep-logs",
+                "--keep-intermediates",
+                "--outdir=build"
+            ],
+            "env": {}
+        },
+        {
+            "name": "copyPdf",
+            "command": "cp",
+            "args": [
+                "build/%DOCFILE%.pdf",
+                "%DOCFILE%.pdf"
+            ],
+            "env": {}
+        }
+    ],
+    
+    // Pasta de saída dos artefatos
+    "latex-workshop.latex.outDir": "%DIR%/build",
+
+    // Usar Tectonic como receita padrão
+    "latex-workshop.latex.recipe.default": "Tectonic",
+    
+    // Auto build ao salvar
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    
+    // Configuração do visualizador PDF
+    "latex-workshop.view.pdf.viewer": "tab",
+    
+    // Limpar arquivos auxiliares após build
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.snm",
+        "*.nav",
+        "*.bcf",
+        "*.run.xml"
+    ],
+    
+    // SyncTeX - sincronização entre código e PDF
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    
+    // Mensagens de erro
+    "latex-workshop.message.error.show": true,
+    "latex-workshop.message.warning.show": true
+}
