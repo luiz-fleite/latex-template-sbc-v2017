@@ -82,8 +82,10 @@
 
     // GitDoc - Configuração estilo Overleaf
     "gitdoc.enabled": false, // Defina como true para habilitar GitDoc
-    "gitdoc.autoPush": "afterDelay",
-    "gitdoc.autoPushDelay": 30000,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000
+    "files.autoSaveDelay": 1000,
+    "gitdoc.autoCommit": "afterDelay",
+    "gitdoc.autoCommitDelay": 1000,
+    "gitdoc.autoPush": "afterDelay",
+    "gitdoc.autoPushDelay": 30000
 }
