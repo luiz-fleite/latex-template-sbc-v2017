@@ -20,7 +20,8 @@ Para isso, foi escolhido:
 ### Diferenças para o template original do overleaf 
 #### Ajustes pra funcionar com Tectonic 
 - **Correção de Fontes:** Configurado para usar fontes equivalentes à Times New Roman (Nimbus Roman), resolvendo problemas comuns de layout do Tectonic.
-- **UTF-8 Nativo:** Pronto para caracteres acentuados modernos, substituindo o antigo `latin1`. 
+- **UTF-8 Nativo:** Pronto para caracteres acentuados modernos, substituindo o antigo `latin1`.
+
 *Atualmente, apenas 3 linhas de importação no main.tex foram modificadas para viabilizar isso.*
 
 #### Sugestões de organização e arquitetura 
