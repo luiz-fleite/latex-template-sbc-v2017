@@ -1,0 +1,8 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+IHAIZV+NimbusRomNo9L-Medi            Type 1C           Custom           yes yes yes      4  0
+BZIVMZ+NimbusRomNo9L-Regu            Type 1C           Custom           yes yes yes      5  0
+IXFAWU+NimbusMonL-Regu               Type 1C           Custom           yes yes yes      6  0
+TQTHRL+NimbusRomNo9L-MediItal        Type 1C           Custom           yes yes yes      7  0
+YEUUOC+NimbusRomNo9L-ReguItal        Type 1C           Custom           yes yes yes      8  0
+AKHCZK+NimbusSanL-Bold               Type 1C           Custom           yes yes yes     14  0
