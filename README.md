@@ -1,12 +1,12 @@
 # Template SBC 2017 para Tectonic e VS Code
 Adaptação do **template oficial da SBC (2017)** para uso **local**, mantendo a **máxima fidelidade visual** e estrutural ao **oficial** do Overleaf. 
 
-> **TL;DR (Resumo Rápido):**
-> 1. Instale o **Tectonic** e a extensão **LaTeX Workshop** no VS Code.
-> 2. Abra o arquivo `main.tex`.
-> 3. Salve o arquivo (`Ctrl+S`).
-> 4. O arquivo `main.pdf` será gerado/atualizado na raiz. 
-> 5. Habilite o `gitdoc` em [.vscode/settings.json](.vscode/settings.json) (opcional)
+## **TL;DR (Resumo Rápido):**
+1. Instale o **Tectonic** e a extensão **LaTeX Workshop** no VS Code.
+2. Abra o arquivo `main.tex`.
+3. Salve o arquivo (`Ctrl+S`).
+4. O arquivo `main.pdf` será gerado/atualizado na raiz. 
+5. Habilite o `gitdoc` em [.vscode/settings.json](.vscode/settings.json) (opcional)
 
 ---
 
