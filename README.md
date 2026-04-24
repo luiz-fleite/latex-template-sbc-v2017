@@ -1,5 +1,5 @@
-# Template SBC 2017 para Tectonic e VS Code
-Adaptação do **template oficial da SBC (2017)** para uso **local**, mantendo a **máxima fidelidade visual** e estrutural ao **oficial** do Overleaf. 
+# Template SBC Conferences 2017 para Tectonic e VS Code
+Adaptação do **template oficial da SBC Conferences (2017)** para uso **local**, mantendo a **máxima fidelidade visual** e estrutural ao **oficial** do Overleaf. 
 
 ## **TL;DR (Resumo Rápido):**
 1. Instale o **Tectonic** e a extensão **LaTeX Workshop** no VS Code.
@@ -12,7 +12,7 @@ Adaptação do **template oficial da SBC (2017)** para uso **local**, mantendo a
 
 ## 📄 Sobre o Projeto
 
-Este é um template LaTeX otimizado para edição de artigos no padrão da **Sociedade Brasileira de Computação (SBC)** localmente. Ele foi configurado para ser o **mais semelhante em todos os aspectos** ao **template oficial da SBC de 2017** publicado oficialmente no overleaf. 
+Este é um template LaTeX otimizado para edição de artigos no padrão da **Sociedade Brasileira de Computação (SBC)** localmente. Ele foi configurado para ser o **mais semelhante em todos os aspectos** ao **template oficial da SBC Conferences de 2017** publicado oficialmente no overleaf. 
 
 Para isso, foi escolhido:
 - Motor LaTeX **Tectonic**: Compilador de LaTeX escrito em Rust, leve, rápido, baixa as dependencias sob demanda, é autossuficiente e é multiplataforma (Windows, Linux, Mac). 
